@@ -379,10 +379,10 @@ http.createServer((req, res) => {
 }).listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
-let file = require.resolve(__filename);
-fs.watchFile(file, () => {
-    fs.unwatchFile(file);
+let watchFile = require.resolve(__filename);
+fs.watchFile(watchFile, () => {
+    fs.unwatchFile(watchFile);
     console.log(chalk.redBright(`Update ${__filename}`));
-    delete require.cache[file];
-    require(file);
+    delete require.cache[watchFile];
+    require(watchFile);
 });
