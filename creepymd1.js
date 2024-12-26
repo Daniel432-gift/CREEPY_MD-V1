@@ -96749,12 +96749,98 @@ case 'clearchat':
 xeonimun('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
 break
    case 'Danny':
-      {
-      let reaction = sendReaction('👋')
-      let dannyMessage = `*Yes ${pushname} i\'m here 😊🫡*`
-      }
-      break
-         case 'menu':
+
+case 'hello':
+
+case 'hi':
+
+case 'hy':
+
+case 'holla':
+
+case 'heyy':
+
+case 'og':
+
+case 'man':
+
+case 'br':
+
+case 'mr':
+
+case 'brother':
+
+case 'baby':
+
+case 'babe':
+
+case 'honey':
+
+case 'bby':
+
+case 'bae':
+
+case 'dr':
+
+case 'dear':
+
+case 'mpenz':
+
+case 'kpnz':
+
+case 'mkk':
+
+case 'boy':
+
+case 'yoo':
+
+case 'd':
+
+case 'dan':
+
+case 'my love':
+
+case 'yo':
+
+case 'bro':
+
+case 'you':
+
+case 'hello bro':
+
+case 'hi there':
+
+case 'hey danny':
+
+case 'kk':
+
+case 'kaka':
+
+case 'br':
+
+case 'man':
+
+case 'oya':
+
+case 'vp': {
+
+    // React with a random emoji
+
+    let reaction = sendReaction('👋', '🤚', '✋️'); // Define the sendReaction function separately to randomize
+
+    await GlobalTechInc.sendMessage(m.chat, { react: { text: reaction, key: m.key } });
+
+    // Send the response message
+
+    let creepyMessege = `*Yes ${pushname}, I'm here 🙂*`;
+
+    await GlobalTechInc.sendMessage(m.chat,{text: creepyMessege}, { quoted: m });
+
+}
+
+break
+  
+     case 'menu':
           {
            let reaction = sendReaction('🤖'); 
     let menuMessage = `
@@ -96763,7 +96849,7 @@ break
 ├─────────────────────────┤
 │ *Hello* \`${pushname}\`, *👋*                      
 │ *My name is 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏* 
-│ *Type \`Creepy\` to seè the full menu*                  
+│ *Type \`Creepy\` to see the full menu*                  
 ╰─────────────────────────╯
 `.trim();
 
@@ -96805,7 +96891,7 @@ break
 │ ◆ *script*                                      
 │ ◆ *support*                                     
 │ ◆ *owner*                                       
-╰────────────────────╯
+╰──────────────────╯${readmore}
 > 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝓎 𝒟𝒶𝓃𝓃𝓎
 ╭───[ \`𝐁𝐔𝐆 𝐀𝐍𝐃𝐑𝐎𝐈𝐃\` ]────╮
 │ ◆ *creepy-android*                             
@@ -96815,13 +96901,13 @@ break
 │ ◆ *killer-creepy*                             
 │ ◆ *hacker-creepy*                              
 │ ◆ *black-danny*                                
-╰─────────────────────╯
+╰───────────────────╯
 > 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝓎 𝒟𝒶𝓃𝓃𝓎
 ╭───[ \`𝐁𝐔𝐆 𝐖𝐄𝐁\` ]─────╮
 │ ◆ *black-danny*                                
 │ ◆ *black-dannygc*                             
 │ ◆ *black-dannyios*                             
-╰───────────────────╯
+╰──────────────────╯
 > 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝓎 𝒟𝒶𝓃𝓃𝓎
 ╭──[ \`𝐁𝐔𝐆 𝐈𝐎𝐒\` ]──────╮
 │ ◆ *creepy-ios*                                 
@@ -96829,21 +96915,21 @@ break
 │ ◆ *creepy-attack*                              
 │ ◆ *black-dannyios*                             
 │ ◆ *ios-creepy*                                  
-╰──────────────────╯
+╰─────────────────╯
 > 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝓎 𝒟𝒶𝓃𝓃𝓎
-╭───[ \`𝐁𝐔𝐆 𝐎𝐓𝐇𝐄𝐑\` ]──────╮
+╭───[ \`𝐁𝐔𝐆 𝐎𝐓𝐇𝐄𝐑\` ]─────╮
 │ ◆ *tempban*                                    
 │ ◆ *creepy-ban*                                 
 │ ◆ *💀*                                        
 │ ◆ *☠️*                                         
-╰──────────────────────╯
+╰────────────────────╯
 > 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝓎 𝒟𝒶𝓃𝓃𝓎
-╭─[ \`𝐆𝐑𝐎𝐔𝐏 𝐁𝐔𝐆𝐒\` ]─────╮
+╭─[ \`𝐆𝐑𝐎𝐔𝐏 𝐁𝐔𝐆𝐒\` ]────╮
 │ ◆ *group-death*                                
 │ ◆ *black-dannygc*                              
 │ ◆ *creepy-bug-group*                          
 │ ◆ *creepy-gc*                                  
-╰────────────────────╯
+╰──────────────────╯
 > 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝓎 𝒟𝒶𝓃𝓃𝓎
 ╭───[ \`𝐁𝐀𝐍/𝐔𝐍𝐁𝐀𝐍\` ]─────╮
 │ ◆ *banv1*                                     
@@ -96857,7 +96943,7 @@ break
 │ ◆ *unbanv3*                                    
 │ ◆ *unbanv4*                                    
 │ ◆ *unbanv5*                                    
-╰─────────────────────╯
+╰───────────────────╯
 > 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝓎 𝒟𝒶𝓃𝓃𝓎
 ╭───[ \`𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔\` ]────╮
 │ ◆ *getsession*                                
@@ -96880,7 +96966,7 @@ break
 │ ◆ *delowner*                                    
 │ ◆ *creepy-open [viewonce]*                      
 │ ◆ *autostatusreact*                             
-╰──────────────────────╯
+╰─────────────────────╯
 > 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝓎 𝒟𝒶𝓃𝓃𝓎
 ╭────[ \`𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔\` ]───╮
 │ ◆ *closetime*                                 
@@ -96899,7 +96985,7 @@ break
 │ ◆ *revoke*                                     
 │ ◆ *listonline*                                  
 │ ◆ *antilink*                                   
-╰────────────────────╯
+╰──────────────────╯
 > 𝓒𝓡𝓔𝓔𝓟𝓎_𝓜𝓓-𝓥𝟏 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝓎 𝒟𝒶𝓃𝓃𝓎
 ╭────────────────────╮
 │ ◆ *ytmp3 <link>*                              
@@ -96912,7 +96998,7 @@ break
 ┏━━━━━━━━━━━━━━━━━━━━┓
 > To get file just type \`file\`                 
 > CREEPY_MD is not for sale                     
-> Created by Danny Himself🫡                   
+> Created by Danny🫡                   
 > ©️Creepy technology                           
 ┗━━━━━━━━━━━━━━━━━━━━┛
 `
