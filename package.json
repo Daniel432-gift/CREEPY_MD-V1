@@ -23,7 +23,7 @@
         "axios": "^1.4.0",
         "chalk": "^4.1.2",
         "dotenv": "^16.3.1",
-        "libphonenumber-js": "^1.10.58",
+        "libphonenumber-js": "^1.10.25",
         "cheerio": "^1.0.0-rc.12",
         "cookie": "^0.7.0",
         "file-type": "^16.5.3",
